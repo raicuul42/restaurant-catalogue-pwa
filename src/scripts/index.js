@@ -5,7 +5,7 @@ import App from './views/app';
 const app = new App({
   button: document.querySelector('[data-menu-toggle-btn]'),
   drawer: document.querySelector('[data-navbar]'),
-  content: document.querySelector('#maincontent'),
+  content: document.querySelector('#content'),
 });
 
 window.addEventListener('hashchange', () => {
